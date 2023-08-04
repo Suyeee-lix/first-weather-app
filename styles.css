@@ -1,0 +1,49 @@
+ul {
+  padding: 0;
+  margin: 0, 0, 10px;
+}
+
+li {
+  color: #70757a;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+}
+.weather-app {
+  border: 1px solid #70757a;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+.weather-image {
+  color: rgb(32, 33, 36);
+  display: inline;
+
+  font-family: "Helvetica Neue", Arial, "Noto Sans Myanmar UI", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 60px;
+  margin-top: 0px;
+  overflow-clip-margin: content-box;
+  vertical-align: top;
+  width: 60px;
+}
+
+.degree {
+  color: rgb(32, 33, 36);
+  display: inline;
+  font-family: "Helvetica Neue", Arial, "Noto Sans Myanmar UI", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  height: auto;
+  width: auto;
+  letter-spacing: normal;
+
+  line-height: 56px;
+}
+.units {
+  position: relative;
+  top: -25px;
+}
